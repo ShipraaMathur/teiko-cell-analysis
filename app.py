@@ -82,8 +82,8 @@ def stats_table(table: pd.DataFrame) -> None:
 
 
 # --------------------------------------------------------------------------
-st.title("Loblaw Bio: Immune Cell Population Analysis")
-st.caption(f"Data source: `{DB_PATH.name}` (SQLite), built from cell-count.csv")
+st.title("Immune Cell Population Analysis")
+st.caption(f"Data source: `{DB_PATH.name}` (SQLite), built from cell-count.csv by Shipra Anil Mathur")
 
 if not DB_PATH.exists():
     # Normally created by `make pipeline`. Building it here as a fallback lets
